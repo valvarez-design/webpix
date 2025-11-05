@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>** webpix **</title>
+</head>
+
+<body data-theme="1">
+    <header id="main-header">
+        <h1 class="logo">WebPix</h1>
+    </header>
+
+    <div class="container">
+        <div class="sidebar-left">
+            <div class="user-bio">
+                <img class="profile-pic" src="https://github.com/barbajohnz/ConnectionsLab-Project2/blob/main/public/media/WebPix/devil.png?raw=true" alt="Profile Picture">
+
+                <h2 class="username">@username</h2>
+
+                <p class="location">📍 Location</p>
+
+                <div class="user-quote">
+                    <p>"just vibing ✨"</p>
+                </div>
+                <div class="theme-selector">
+                    <button class="theme-btn" data-theme="1">💖</button>
+                    <button class="theme-btn" data-theme="2">💸</button>
+                    <button class="theme-btn" data-theme="3">💀</button>
+                    <button class="theme-btn" data-theme="4">🖤</button>
+                    <button class="theme-btn" data-theme="5">🌈</button>
+                </div>
+            </div>
+            <div class="chatroom">
+                <h3>PixChat</h3>
+                <div class="messages-container" id="chat-messages">
+                    <!-- Messages will appear here -->
+                </div>
+                <div class="chat-input-area">
+                    <input type="text" id="chat-input" placeholder="Spill the tea...">
+                    <button id="send-btn">Send</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar-right">
+            <div class="photo-gallery">
+                <h2>bringing back social media nostalgia one pic at a time</h2>
+                <div class="photo-grid">
+
+                    <div class="photo-item" data-photo-id="1">
+                        <img src="media/WebPix/cry4craig.png" alt="Photo 3">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="2">
+                        <img src="media/WebPix/alexy2k.png" alt="Photo 1">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="4">
+                        <img src="media/WebPix/devil.png" alt="Photo 4">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="5">
+                        <img src="media/WebPix/fryingme.png" alt="Photo 5">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="6">
+                        <img src="media/WebPix/fungi4u.png" alt="Photo 6">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="7">
+                        <img src="media/WebPix/fungibook.png" alt="Photo 7">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="8">
+                        <img src="media/WebPix/gay.png" alt="Photo 8">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="9">
+                        <img src="media/WebPix/mystuff.png" alt="Photo 9">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="10">
+                        <img src="media/WebPix/poffins.png" alt="Photo 10">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                    <div class="photo-item" data-photo-id="11">
+                        <img src="media/WebPix/trio.png" alt="Photo 11">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+                    <div class="photo-item" data-photo-id="11">
+                        <img src="media/WebPix/cat.png" alt="Photo 11">
+                        <div class="reactions">
+                            <button class="emoji-btn" data-emoji="love">(♥_♥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cute">(◕‿◕) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="shrug">¯\_(ツ)_/¯ <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="cry">(╥_╥) <span class="count">0</span></button>
+                            <button class="emoji-btn" data-emoji="fight">(ง'̀-'́)ง <span class="count">0</span></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- moving scripts to the bottom so the html loads first -->
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="app.js"></script>
+
+</body>
