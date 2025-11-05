@@ -20,8 +20,8 @@
   "bugs": {
     "url": "https://github.com/valvarez-design/web-pix/issues"
   },
-  "homepage": "https://github.com/valvarez-design/web-pix#readme"
-  {
+  "homepage": {"https://github.com/valvarez-design/web-pix#readme"}
+  
   "scripts": {
     "start": "http-server -p $PORT"
   },
@@ -29,4 +29,4 @@
     "http-server": "^14.1.1"
   }
 }
-}
+
