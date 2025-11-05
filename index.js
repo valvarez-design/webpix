@@ -74,7 +74,8 @@ io.on('connection', (socket) => {
 
 
 
-//start server on port 3000
-server.listen(3000, () => {
-    console.log('tuned in and listening to local host 3000');
+//start server on port 3000 + work on render
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+    console.log(`tuned in and listening to port ${PORT}`);
 });
