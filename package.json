@@ -1,15 +1,16 @@
 {
+  "name": "webflickz",
+  "version": "1.0.0",
+  "description": "bringing back 2000s internet culture one theme at a time",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "express": "^5.1.0",
     "lowdb": "^7.0.1",
     "socket.io": "^4.8.1"
-  },
-  "name": "webflickz",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
@@ -20,13 +21,6 @@
   "bugs": {
     "url": "https://github.com/valvarez-design/web-pix/issues"
   },
-  "homepage": {"https://github.com/valvarez-design/web-pix#readme"}
-  
-  "scripts": {
-    "start": "http-server -p $PORT"
-  },
-  "dependencies": {
-    "http-server": "^14.1.1"
-  }
+  "homepage": "https://github.com/valvarez-design/web-pix#readme"
 }
 
